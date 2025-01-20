@@ -1,1 +1,42 @@
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convite - Cássia & Samuel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: inline-block;
+    }
+    .qr-code {
+      margin: 20px 0;
+    }
+    a {
+      text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Convite - Cássia & Samuel</h1>
+    <p>Por favor, confirme sua presença acessando o QR Code abaixo:</p>
+    <div class="qr-code">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://seurepositorio.github.io/seuarquivo.pdf" alt="QR Code">
+    </div>
+    <p>Ou clique no link abaixo:</p>
+    <a href="https://seurepositorio.github.io/seuarquivo.pdf" target="_blank">Acesse o Convite</a>
+  </div>
+</body>
+</html>
